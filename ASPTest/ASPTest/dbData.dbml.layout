@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbData">
+  <DataContextMoniker Name="/dbDataDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1d387d43-ee7c-4e67-b193-2b1983b26174" absoluteBounds="6, 2.125, 2, 1.7220992024739581">
+      <DataClassMoniker Name="/dbDataDataContext/tProduct" />
+      <nestedChildShapes>
+        <elementListCompartment Id="03b63e90-e4f7-4a80-b04f-6e19d21ea234" absoluteBounds="6.015, 2.585, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2cf44e53-c006-42c2-8f09-07771c4e3da1" absoluteBounds="7.125, 5, 2, 1.9068933105468751">
+      <DataClassMoniker Name="/dbDataDataContext/tShoppingCart" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad9cd845-b128-47f4-b8a5-330a41f0c0f9" absoluteBounds="7.14, 5.46, 1.9700000000000002, 1.346893310546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a6f85e3-f75c-4f58-93cd-2719000e2061" absoluteBounds="1.5, 1.75, 2, 1.7220992024739581">
+      <DataClassMoniker Name="/dbDataDataContext/tCustomer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="70df139a-d284-4a96-9254-7e2d0a4bd022" absoluteBounds="1.5150000000000001, 2.21, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbASPDemo" Class="dbDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=dbASPDemo;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="dbASPDemoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tProduct" Member="tProduct">
+    <Type Name="tProduct">
+      <Column Name="fId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fCost" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="fPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tShoppingCart" Member="tShoppingCart">
+    <Type Name="tShoppingCart">
+      <Column Name="fId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fCustomer" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fProduct" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tCustomer" Member="tCustomer">
+    <Type Name="tCustomer">
+      <Column Name="fId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fPhone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fEmail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fAddress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
